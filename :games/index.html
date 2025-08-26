@@ -1,0 +1,125 @@
+<!DOCTYPE html><html lang="zh-HK"><head><meta charset="UTF-8"><title>預覽內容</title><style>body{font-family:sans-serif;line-height:1.6;padding:1rem;color:#1f2937;background:#f0f0f0;}h1,h2,h3{font-weight:bold;margin-bottom:1rem;margin-top:1.5rem;}h1{font-size:2em;}h2{font-size:1.5em;}h3{font-size:1.17em;}p,ul,ol{margin-bottom:1rem;}ul,ol{padding-left:1.5rem;}a{color:#2563eb;}</style></head><body><!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NERV - 娛樂遊戲</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body {
+            background-color: #0d0d0d;
+            color: #d1d1d1;
+            font-family: 'Inter', monospace, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            overflow-x: hidden;
+            position: relative;
+        }
+        .container {
+            border: 2px solid #333;
+            padding: 2.5rem;
+            max-width: 800px;
+            width: 90%;
+            margin: 2rem 0;
+            animation: fadeIn 1s ease-out;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+            position: relative;
+        }
+        .title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.5rem;
+            position: relative;
+            letter-spacing: 0.2rem;
+            text-shadow: 0 0 5px #ff4500;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #aaa;
+            margin-bottom: 2.5rem;
+        }
+        .app-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .app-item {
+            margin-bottom: 1.5rem;
+        }
+        .app-link {
+            display: block;
+            padding: 1.5rem;
+            background-color: rgba(30, 30, 30, 0.5);
+            border: 1px solid #222;
+            text-decoration: none;
+            color: #fff;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .app-link:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            transition: all 0.5s ease;
+            z-index: 1;
+        }
+        .app-link:hover:before {
+            left: 0;
+        }
+        .app-link:hover {
+            border-color: #ff6666;
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(255, 102, 102, 0.2);
+            color: #ff6666;
+        }
+        .link-text {
+            position: relative;
+            z-index: 2;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            color: #00ffff;
+            text-decoration: none;
+            text-shadow: 0 0 5px #00ffff;
+            font-weight: bold;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">娛樂遊戲</h1>
+        <p class="subtitle">檔案存取許可。以下為遊戲清單。</p>
+        <ul class="app-list">
+            <li class="app-item">
+                <a href="https://your-game-app.pages.dev" class="app-link">
+                    <div class="link-text">
+                        <h2 class="text-xl font-bold">簡單遊戲</h2>
+                        <p class="text-sm mt-1">
+                            玩吓簡單小遊戲。
+                        </p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <a href="../" class="back-link">← 返回檔案庫主頁</a>
+    </div>
+
+</body>
+</html>
+</body></html>
